@@ -41,7 +41,7 @@ body {
   gap: 20px;
   justify-content: space-around;
   margin-top: 50px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -50,8 +50,8 @@ body {
   border: 2px solid #ddd;
   border-radius: 10px;
   padding: 20px;
-  max-width: 410px;
-  max-height: 247px;
+  max-width: 697px;
+  max-height: 192px;
   text-align: left;
   transition: 0.3s;
 }
@@ -101,8 +101,9 @@ body {
 
 .cardText {
   margin-top: 15px;
-  font-size: 1rem;
-  color: #4f5665;
+  width: 359px;
+  height: 192px;
+  color: #0b132a; 
   line-height: 1.6;
 }
 
