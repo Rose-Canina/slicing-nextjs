@@ -33,7 +33,7 @@ export default function Stats() {
 
       <div className={styles.statItem}>
         <div className={styles.icon}>
-          <Image src="/img/server.png" alt="Servers" width={45} height={45} />
+          <Image src="/img/Server.png" alt="Servers" width={45} height={45} />
         </div>
         <div className={styles.statText}>
           <span className={styles.statNumber}>50+</span>

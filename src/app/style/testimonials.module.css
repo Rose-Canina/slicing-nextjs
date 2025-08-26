@@ -26,6 +26,7 @@ body {
   width: 684px;
   height: 51px;
   font-size: 16px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -186,6 +187,6 @@ body {
   }
 
   .arrows {
-    margin-bottom : 0;
+    margin-bottom: 0;
   }
 }
