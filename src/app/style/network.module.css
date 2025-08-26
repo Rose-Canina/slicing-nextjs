@@ -1,0 +1,56 @@
+.networkSection {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.networkSection h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0b132a;
+  margin-bottom: 15px;
+}
+
+.networkSection p {
+  font-size: 16px;
+  color: #4f5665;
+  line-height: 1.5;
+}
+
+.networkSection img {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0 0;
+}
+
+@media (max-width: 768px) {
+  .networkSection {
+    padding: 80px 20px;
+  }
+
+  .networSection h2 {
+    font-size: 22px;
+  }
+
+  .networkSection p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 280px) {
+  .networkSection h2 {
+    width: 170px;
+    height: 122px;
+    margin-bottom: 30px;
+  }
+
+  .networkSection p {
+    width: 170px;
+    height: 87px;
+  }
+}

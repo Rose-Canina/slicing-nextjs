@@ -1,0 +1,165 @@
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #0b132a;
+}
+
+.section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #4f5665;
+  margin-bottom: 40px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.planCard {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  max-width: 300px;
+  /* max-height: 628px; */
+  width: 100%;
+  padding: 30px 20px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.planCard:hover {
+  border-color: #f53838;
+  box-shadow: 0 0 20px rgba(245, 56, 56, 0.2);
+}
+
+.planCardImage img {
+  max-width: 146px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.planCard h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.planFeatures {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.planFeatures li {
+  color: #4f5665;
+  font-size: 14px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.planFeatures li img {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.bottomPlanCard {
+  padding: 10px 20px;
+  max-width: 176px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+}
+
+.planPrice {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.planPrice span {
+  font-weight: 400;
+  color: #4f5665;
+}
+
+.button {
+  padding: 8px 40px;
+  border-radius: 20px;
+  border: 2px solid #f53838;
+  background: none;
+  color: #f53838;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f53838;
+  color: white;
+  transform: scale(1) translateY(-0.2rem);
+  box-shadow: 3px 3px 1px 1px #ffadb9;
+  transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .section h2 {
+    width: 342px;
+    height: 43px;
+  }
+
+  .section p {
+    width: 342px;
+    height: 46px;
+  }
+
+  .plans {
+    align-items: center;
+  }
+
+  .planCard {
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+  }
+}
+
+@media (max-width: 280px) {
+  .section h2 {
+    width: 170px;
+    height: 81px;
+    font-size: 27px;
+  }
+
+  .section p {
+    width: 170px;
+    height: 87px;
+    font-size: 13px;
+  }
+
+  .planPrice span {
+    width: 43px;
+    height: 22px;
+    color: #4f5665;
+  }
+}

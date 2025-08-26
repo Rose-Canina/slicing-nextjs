@@ -1,0 +1,122 @@
+.footer {
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.footerLeft {
+  max-width: 300px;
+}
+
+.footerLeftLogo {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.footerLeft img {
+  width: 149px;
+  height: 38px;
+}
+
+.footerLeft p {
+  font-size: 16px;
+  color: #4f5665;
+  line-height: 1.6;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.socialIcons img {
+  width: 45px;
+  height: 45px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footerLinks h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0b132a;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #4f5665;
+  font-size: 14px;
+}
+
+.footerLinks a:hover {
+  color: #f53838;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #aaa;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .subscribeBox {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .subscribeText p {
+    text-align: left;
+  }
+
+  .subscribeText h2 {
+    text-align: left;
+  }
+
+  .btnSubscribe {
+    padding: 10px 40px;
+    box-shadow: none;
+  }
+
+  .footer {
+    padding: 15px 18px;
+  }
+
+  .footerContainer {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footerLeft p {
+    text-align: left;
+  }
+}

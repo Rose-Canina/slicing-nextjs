@@ -1,0 +1,136 @@
+.getContent {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  gap: 40px;
+  grid-column: 1 / -1;
+  margin-top: 50px;
+}
+
+.getText {
+  flex: 1;
+  display: inline-block;
+  color: #0b1320;
+  padding-right: 2rem;
+}
+
+.getText h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.getText span {
+  color: #0b1320;
+  font-weight: bold;
+}
+
+.getText p {
+  margin-bottom: 40px;
+  color: #0b1320;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f53838;
+  color: white;
+  padding: 20px 80px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #f53838;
+  color: white;
+  padding: 20px 80px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  transform: scale(1) translateY(-0.2rem);
+  box-shadow: 3px 3px 1px 1px #ffadb9;
+  transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+.personImage {
+  flex: 1;
+}
+
+.personImage img {
+  width: 464px;
+  height: 290px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .personImage img {
+    width: 412px;
+    height: 258px;
+    max-width: 350px;
+  }
+
+  .personImage {
+    order: -1;
+  }
+
+  .getContent {
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 15px;
+  }
+
+  .getText {
+    padding-right: 0;
+  }
+
+  .getText h1 {
+    font-size: 33px;
+    width: 570px;
+    height: 78px;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+
+  .getText p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .btn {
+    text-align: left;
+  }
+}
+
+@media (max-width: 280px) {
+  .personImage img {
+    width: 182px;
+    height: 113px;
+    max-width: 350px;
+  }
+
+  .getText h1 {
+    width: 188px;
+    height: 150px;
+    font-size: 31px;
+    margin-bottom: 40px;
+  }
+
+  .getText p {
+    width: 188px;
+    height: 92px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    text-align: center;
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+}

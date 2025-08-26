@@ -1,0 +1,93 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.subscribeBox {
+  background: #fff;
+  padding: 40px 50px;
+  box-shadow: 2px 2px 5px 1px #eee, -2px -2px 5px 2px #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.subscribeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subscribeText h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0b132a;
+}
+
+.subscribeText p {
+  font-size: 16px;
+  color: #4f5665;
+  text-align: left;
+}
+
+.btnSubscribe {
+  display: inline-block;
+  background-color: #f53838;
+  color: white;
+  padding: 20px 60px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btnSubscribe:hover {
+  display: inline-block;
+  background-color: #f53838;
+  color: white;
+  padding: 20px 60px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  transform: scale(1) translateY(-0.2rem);
+  box-shadow: 3px 3px 1px 1px #ffadb9;
+  transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+@media (max-width: 768) {
+  .testimonialCard {
+    flex-direction: column;
+  }
+
+  .subscribeBox {
+    box-shadow: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .subscribeText h2 {
+    width: 216px;
+    height: 110px;
+    text-align: left;
+    margin-bottom: 2px;
+    font-weight: normal;
+  }
+
+  .subscribeText p {
+    width: 216px;
+    height: 32px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .btnSubscribe {
+    padding: 18px 42px;
+    font-weight: 500;
+  }
+}

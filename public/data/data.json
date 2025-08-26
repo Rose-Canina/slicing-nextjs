@@ -1,0 +1,82 @@
+{
+  "menu": [
+    { "link": "/about", "text": "About" },
+    { "link": "/features", "text": "Features" },
+    { "link": "/pricing", "text": "Pricing" },
+    { "link": "/testimonials", "text": "Testimonials" },
+    { "link": "/help", "text": "Help" }
+  ],
+
+  "getText": [
+    "Want anything to be easy with LaslesVPN.",
+    "Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us."
+  ],
+
+  "featuresText": {
+    "title": "We Provide Many Features You Can Use",
+    "subTitle": "You can explore the features that we provide with fun and have their own functions each feature.",
+    "list": [
+      {
+        "img": "/public/img/checklist.png",
+        "text": "Powerful online protection."
+      },
+      {
+        "img": "/public/img/checklist.png",
+        "text": "Internet without borders."
+      },
+      { "img": "/public/img/checklist.png", "text": "Supercharged VPN." },
+      { "img": "/public/img/checklist.png", "text": "No specific time limits." }
+    ]
+  },
+
+  
+  "planText": [
+    "Choose Your Plan",
+    "Let's choose the best package that is best for you and explore it happily and cheerfully."
+  ],
+  
+  "network": [
+    "Huge Global Network of Fast VPN",
+    "See LaslesVPN everywhere to make it easier for you when you move locations."
+  ],
+
+  "testimonialText": [
+    "Trusted by Thousands of Happy Customer.",
+    "These are the stories of our customers who have joined us with great pleasure when using this crazy feature."
+  ],
+
+
+  "subscribeText": [
+    "Subscribe Now for Get Special Features!",
+    "Let's subscribe with us and find the fun."
+  ],
+
+  "footerLinks": [
+    {
+      "title": "Product",
+      "items": [
+        "Download",
+        "Pricing",
+        "Locations",
+        "Server",
+        "Countries",
+        "Blog"
+      ]
+    },
+    {
+      "title": "Engage",
+      "items": [
+        "LaslesVPN ?",
+        "FAQ",
+        "Tutorials",
+        "About Us",
+        "Privacy Policy",
+        "Terms of Service"
+      ]
+    },
+    {
+      "title": "Earn Money",
+      "items": ["Affiliate", "Become Partner"]
+    }
+  ]
+}
