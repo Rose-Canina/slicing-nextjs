@@ -30,26 +30,26 @@
   font-size: 32px;
   color: #0b132a;
   text-align: left;
-  margin: 0 0 17px 0;
-  width: 314px;
-  height: 124px;
+  margin: 0 0 25px 0;
+  width: 500px;
 }
 
 .featuresText p {
   color: #0b132a;
   text-align: left;
+  width: 600px;
 }
 
 .featuresText ul {
   list-style: none;
   padding: 0;
-  margin: 16px 0 0;
+  margin: 37px 0 0;
 }
 
 .featuresText ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 17px;
   color: #0b132a;
 }

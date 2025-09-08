@@ -71,9 +71,7 @@ export default function Plan() {
             </li>
           </ul>
           <div>
-            <p className={styles.planPrice}>
-              <strong>Free</strong>
-            </p>
+            <p className={styles.planPrice}> Free</p>
           </div>
           <div className={styles.button}>Select</div>
         </div>
@@ -130,9 +128,7 @@ export default function Plan() {
             </li>
           </ul>
           <div>
-            <p className={styles.planPrice}>
-              <strong>$9 </strong> <span>/mo</span>
-            </p>
+            <p className={styles.planPrice}>$9 /mo</p>
           </div>
           <div className={styles.button}>Select</div>
         </div>
@@ -203,10 +199,7 @@ export default function Plan() {
             </li>
           </ul>
           <div>
-            <p className={styles.planPrice}>
-              <strong>$12 </strong>
-              <span>/mo</span>
-            </p>
+            <p className={styles.planPrice}>$12 /mo</p>
           </div>
           <div className={styles.button}>Select</div>
         </div>

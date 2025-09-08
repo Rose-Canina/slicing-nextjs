@@ -42,6 +42,7 @@ body {
   justify-content: space-around;
   margin-top: 50px;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -103,7 +104,7 @@ body {
   margin-top: 15px;
   width: 359px;
   height: 192px;
-  color: #0b132a; 
+  color: #0b132a;
   line-height: 1.6;
 }
 
@@ -131,8 +132,8 @@ body {
 }
 
 .arrowBtn {
-  width: 30px;
-  height: 30px;
+  width: 46px;
+  height: 43px;
   border-radius: 50%;
   border: 2px solid #f53838;
   display: flex;
